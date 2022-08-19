@@ -12,4 +12,4 @@ func h() *x { return &x{} }
 
 var t [4]x
 
-func g() any { return make([]x, 10) }
+func g(n int) any { return make([]x, n) }
